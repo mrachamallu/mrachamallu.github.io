@@ -1822,7 +1822,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #2E2927 !important;
 		}
 
 	strong, b {
@@ -3383,8 +3383,8 @@
 		}
 
 			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
+				border-color: #2E2927 !important;
+				color: #2E2927 !important;
 			}
 
 		@media screen and (max-width: 980px) {
