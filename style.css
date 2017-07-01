@@ -1,0 +1,67 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #d8c0c0
+}
+
+.container {
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.header {
+  background-color: #d8c0c0;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.nav li {
+  color: #C49587;
+  display: inline;
+  float: right;
+  font-family: 'Swis721 BlkCn BT', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+
+.main {
+	position: relative;
+	top: 120px;
+	text-align: center;
+}
+
+.main h1 {
+  color: #C49587;
+  font-family: 'Swis721 BlkCn BT', sans-serif;
+  font-weight: 600;
+  font-size: 120px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+img{
+	color: #C49587;
+	margin: 0;
+	width: 40px;
+	height: 40px;
+	padding-right: 5px;
+}
+
+
+
+.btn{
+	color: #C49587;
+	font-family: 'Swis721 BlkCn BT', sans-serif;
+
+	padding-bottom: 120px;
+	text-decoration: none;
+}
