@@ -1,0 +1,220 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #d8c0c0
+}
+
+@font-face {
+    font-family: yeezy_tstar-heavy-webfont;
+    src: url(yeezy_tstar-heavy-webfont.woff);
+}
+
+a:hover {
+	color: #bb8a74;
+}
+
+.container {
+	max-width: 1500px;
+  height: auto;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.header {
+  /*background-color: #d8c0c0; */
+  z-index: 999;
+  height: 100px;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+  .nav p {
+    margin-left: 15px;
+    padding-top: 0px;
+  }
+
+  .nav li {
+    color: #C49587;
+    display: inline block;
+    float: right;
+    font-family: 'yeezy_tstar-heavy-webfont', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 25px;
+    text-transform: uppercase;
+  }
+
+.main {
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
+
+  .main h1 {
+    color: #C49587;
+    font-family: 'yeezy_tstar-heavy-webfont', sans-serif;
+    font-weight: 600;
+    font-size: 120px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+  }
+
+img{
+	color: #C49587;
+	margin: 0;
+	width: 40px;
+	height: 40px;
+	padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.btn{
+	color: #C49587;
+	font-family: 'yeezy_tstar-heavy-webfont', sans-serif;
+	padding-bottom: 120px;
+	text-decoration: none;
+}
+
+.backbtn {
+	color: #bb8a74;
+	font-family: 'yeezy_tstar-heavy-webfont', sans-serif;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 25px;
+	padding-top: -5px;
+}
+
+/*
+.icon{
+	width: 100px;
+	height: 100px;
+	padding: 25px, 25px, 25px, 25px;
+}
+*/
+
+
+
+.introBackground{
+  background-color: #C8AEA7;
+  background-size: cover;
+  height: 600px;
+}
+
+.bio {
+	width: 400px;
+	height: 400px;
+	font-size: 30px;
+	line-height: 1.5;
+	/*text-align: justify; */
+	font-family: 'yeezy_tstar-heavy-webfont', serif;
+	color: #EBDAD6;
+	padding-left: 100px;
+	padding-top: 0px;
+	position: absolute;
+}
+
+/*pho
+/*top row*/
+
+.photobox {
+	margin-left: 700px;
+	margin-top: 35px;
+	position: absolute;
+  float: bottom;
+  z-index: 99;
+}
+
+.photoboxBottom {
+  margin-left: 700px;
+  margin-top: 225px;
+  position: absolute;
+}
+
+.photobox > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.photoboxBottom > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+
+.photos{
+  width: 185px;
+  height: 185px;
+  display: block;
+  float: left;
+  border-radius: 8px;
+  float: left;
+  display: inline-block;
+}
+
+
+
+/* Tiles */
+.tiles {
+  margin-left: 40px;
+  margin-top: 200px;
+  position: absolute;
+}
+  
+  .tiles article > .image img{
+    width: 400px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+    float: right;
+
+  }
+/* Section/Article */
+
+  section.special, article.special {
+    text-align: center;
+  }
+
+  header p {
+    margin-top: -1em;
+  }
+
+  @media screen and (max-width: 736px) {
+
+    header p {
+      margin-top: 0;
+    }
+
+  }
+
+.footer{
+  padding: 30px 0;
+}
+
+  .footer p {
+    font-family: 'yeezy_tstar-heavy-webfont', serif;
+    color: #C49587;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0px;
+    position: absolute;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
