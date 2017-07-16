@@ -161,6 +161,34 @@ img{
   object-fit: cover;
 }
 
+/*projects*/
+.projectbox { 
+  float: center;
+  position: absolute;
+  float: bottom;
+  z-index: 99;
+  display: block;
+  margin: auto;
+}
+
+.projectbox > div {
+  position: relative;
+  float: left;
+  padding: 0px;
+  display: block;
+  margin: auto;
+}
+
+
+.projectbox img {
+  width: 350px;
+  height: 350px;
+  display: block;
+  border-radius: 8px;
+  float: center;
+  display: inline-block;
+  object-fit: cover;
+}
 
 
 /* Tiles */

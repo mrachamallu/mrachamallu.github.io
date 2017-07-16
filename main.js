@@ -1,3 +1,5 @@
+
+//pictures on aboutme enlarge upon hover
 $(document).ready(function() {
    $('.photos').mouseenter(function() {
        $(this).animate({
@@ -14,6 +16,7 @@ $(document).ready(function() {
    }); 
 });
 
+//bio slides in on about me
 $(document).ready(function() {
                  $('.bio').hide();
                  $('.bio').html("I am a second year Computer Science student at UCLA exploring web development, app development, and software development. This page is still under construction, but be sure to check back soon for exciting updates!").slideDown(1500);
