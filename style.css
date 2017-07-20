@@ -161,6 +161,7 @@ img{
   object-fit: cover;
 }
 
+
 /*projects*/
 #rig {
     max-width:1100px;
@@ -267,39 +268,61 @@ img{
     }
 }
 
-
-/* Tiles */
-.tiles {
-  margin-left: 40px;
-  margin-top: 200px;
-  position: absolute;
+/*POPUP DESCRIPTION*/
+.popupbox {
+  z-index: 199;
+  position:absolute;
+  top:12.5%;
+  left:30%;
+  width: 40%;
+  height: 75%;
+  background-color: /*#bb8a74; */ #EBDAD6;
+  opacity: 0.9;
+  visibility: hidden; 
+  /*display: none;*/
 }
-  
-  .tiles article > .image img{
-    width: 400px;
-    height: 400px;
-    padding: 10px 10px 10px 10px;
-    float: right;
 
-  }
-/* Section/Article */
-
-  section.special, article.special {
+  .popupbox h1 {
+    font-size:50px;
+    font-family: 'yeezy_tstar-heavy-webfont', sans-serif;
+    font-weight:normal!important;
     text-align: center;
+    color: #bb8a74;
+    line-height: 0.2;
   }
 
-  header p {
-    margin-top: -1em;
+   .popupbox h3 {
+    font-size:25px;
+    font-family: 'yeezy_tstar-heavy-webfont', sans-serif;
+    font-weight:normal!important;
+    text-align: center;
+    color: #bb8a74;
+    line-height: 0.4;
+  } 
+
+  .popupbox p {
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal!important;
+    text-align: center;
+ }
+
+
+  .textbox {
+    opacity: 0.8;
+    z-index: 199;
+    position: absolute;
+    top: 16%;
+    left: 4%;
+    width: 92%;
+    height: 80%;
+    background-color: #fff;
   }
 
-  @media screen and (max-width: 736px) {
 
-    header p {
-      margin-top: 0;
-    }
 
-  }
-
+/*FOOTER */
 .footer{
   padding: 30px 0;
 }

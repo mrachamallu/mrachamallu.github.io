@@ -16,11 +16,40 @@ $(document).ready(function() {
    }); 
 });
 
+
+
 //bio slides in on about me
 $(document).ready(function() {
                  $('.bio').hide();
                  $('.bio').html("I am a second year Computer Science student at UCLA exploring web development, app development, and software development. This page is still under construction, but be sure to check back soon for exciting updates!").slideDown(1500);
          });
+
+$(document).ready(function(){
+    $(".rig-cell").click(function(){
+        $('.popupbox').css('visibility','visible');
+    });
+    $(".popupbox").click(function(){
+        $('.popupbox').css('visibility','hidden');
+    });
+});
+
+/*
+$(document).ready(function(){
+    $(".div").click(function(){
+        $('.popupbox').css('visibility','hidden');
+    });
+});
+*/
+/*
+$(document).ready(function () {
+  $('.rig-cell').on('click', function (event)
+    {
+
+        $('.popupbox').fadeIn();
+
+    });
+});
+*/
 /*
 function getRandomSize(min, max) {
   return Math.round(Math.random() * (max - min) + min);
