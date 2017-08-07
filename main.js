@@ -34,6 +34,12 @@ $(document).ready(function(){
     });
 });
 
+
+document.getElementById('moda').onclick = function() {
+    document.getElementById('modatitle').innerHTML = 'Hey There';
+    document.getElementById('modasub').innerHTML = 'Hey There sub';
+    document.getElementById('modadesc').innerHTML = 'Hey There description';
+}
 /*
 $(document).ready(function(){
     $(".div").click(function(){
