@@ -34,12 +34,30 @@ $(document).ready(function(){
     });
 });
 
-
-document.getElementById('moda').onclick = function() {
-    document.getElementById('modatitle').innerHTML = 'Hey There';
-    document.getElementById('modasub').innerHTML = 'Hey There sub';
-    document.getElementById('modadesc').innerHTML = 'Hey There description';
+/*
+document.getElementById('#moda').onclick = function() {
+    document.getElementById('#modatitle').innerHTML = 'Hey There';
+    document.getElementById('#modasub').innerHTML = 'Hey There sub';
+    document.getElementById('#modadesc').innerHTML = 'Hey There description';
 }
+*/
+
+$(document).ready(function(){
+    $(".rig-cell").click(function(){
+    switch ($(this).attr('id')) {
+        case 'moda': 
+          $("#title" ).replaceWith("<h1>MODA</h1>");
+          $( "#subheading" ).replaceWith("<h3>An App</h3>");
+          $( "#description" ).replaceWith("<p>The iOS app, Moda, is a new way to shop and save all your liked items in one place. Whenever the price drops on an item you have saved, you receive a push notification letting you know that your item is on sale. </p>");
+          break;
+      case 'touchtest':
+          $( "#title" ).replaceWith("<h1>TouchTest</h1>");
+          $( "#subheading" ).replaceWith("<h3>An App</h3>");
+          $( "#description" ).replaceWith("<p>The iOS app, Moda, is a new way to shop and save all your liked items in one place. Whenever the price drops on an item you have saved, you receive a push notification letting you know that your item is on sale. </p>");
+          break;
+    }
+    });
+});
 /*
 $(document).ready(function(){
     $(".div").click(function(){
