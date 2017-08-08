@@ -35,18 +35,26 @@ $(document).ready(function(){
 });
 
 /*
+function changeDescription() {
+    document.getElementById('modatitle').innerHTML = 'Hey There';
+    document.getElementById('modasub').innerHTML = 'Hey There sub';
+    document.getElementById('modadesc').innerHTML = 'Hey There description';
+  }
+
+  */
+/*
 document.getElementById('#moda').onclick = function() {
     document.getElementById('#modatitle').innerHTML = 'Hey There';
     document.getElementById('#modasub').innerHTML = 'Hey There sub';
     document.getElementById('#modadesc').innerHTML = 'Hey There description';
 }
 */
-
+/*
 $(document).ready(function(){
     $(".rig-cell").click(function(){
     switch ($(this).attr('id')) {
         case 'moda': 
-          $("#title" "#h1").replaceWith("<h1>MODA</h1>");
+          $("#title").replaceWith("<h1>MODA</h1>");
           $( "#subheading" ).replaceWith("<h3>An App</h3>");
           $( "#description" ).replaceWith("<p>The iOS app, Moda, is a new way to shop and save all your liked items in one place. Whenever the price drops on an item you have saved, you receive a push notification letting you know that your item is on sale. </p>");
           break;
@@ -56,6 +64,28 @@ $(document).ready(function(){
           $( "#description" ).replaceWith("<p>The iOS app, Moda, is a new way to shop and save all your liked items in one place. Whenever the price drops on an item you have saved, you receive a push notification letting you know that your item is on sale. </p>");
           break;
     }
+    });
+});
+*/
+
+//explanation of each featured work
+$(document).ready(function(){
+    $(".rig-cell").click(function(){
+    switch ($(this).attr('id')) {
+        case 'moda': 
+          $('#title h1').text('Moda');
+          $( "#subheading h3").text('An App');
+          $( "#description p" ).text("The iOS app, Moda, is a new way to shop and save all your liked items in one place. Whenever the price drops on an item you have saved, you receive a push notification letting you know that your item is on sale. ");
+          break;
+      case 'touchtest':
+          $('#title h1').text('TouchTest');
+          $( "#subheading h3").text('lol');
+          $( "#description p" ).text("The iOS app, Moda, is a new way to shop and save all your liked items in one place. Whenever the price drops on an item you have saved, you receive a push notification letting you know that your item is on sale. ");
+          break;
+        default:
+        console.log("no featured work");
+    }
+          
     });
 });
 /*
