@@ -46,7 +46,7 @@ $(document).ready(function(){
     $(".rig-cell").click(function(){
     switch ($(this).attr('id')) {
         case 'moda': 
-          $("#title" ).replaceWith("<h1>MODA</h1>");
+          $("#title" "#h1").replaceWith("<h1>MODA</h1>");
           $( "#subheading" ).replaceWith("<h3>An App</h3>");
           $( "#description" ).replaceWith("<p>The iOS app, Moda, is a new way to shop and save all your liked items in one place. Whenever the price drops on an item you have saved, you receive a push notification letting you know that your item is on sale. </p>");
           break;
