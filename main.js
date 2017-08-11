@@ -80,7 +80,7 @@ $(document).ready(function(){
       case 'touchtest':
           $('#title h1').text('TouchTest');
           $( "#subheading h3").text('lol');
-          $( "#description p" ).text("The iOS app, Moda, is a new way to shop and save all your liked items in one place. Whenever the price drops on an item you have saved, you receive a push notification letting you know that your item is on sale. ");
+          $( "#description p" ).text("An app that can assess and preliminarily diagnose mobile disorders such as Parkinsons in a few short steps");
           break;
         default:
         console.log("no featured work");
