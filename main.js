@@ -79,8 +79,38 @@ $(document).ready(function(){
           break;
       case 'touchtest':
           $('#title h1').text('TouchTest');
-          $( "#subheading h3").text('lol');
+          $( "#subheading h3").text('A Health App');
           $( "#description p" ).text("An app that can assess and preliminarily diagnose mobile disorders such as Parkinsons in a few short steps");
+          break;
+      case 'discoball':
+          $('#title h1').text('LED Discoball');
+          $( "#subheading h3").text('A Phidgets Project');
+          $( "#description p" ).text("Transform your dance party experience. A smart discoball that lights up with different flashing patterns in response to different decibel levels. Coded in Java.");
+          break;
+      case 'bruinNavigator':
+          $('#title h1').text('Bruin Navigator');
+          $( "#subheading h3").text('A c++ Project');
+          $( "#description p" ).text("A map-based c++ application that recommends optimal directions from point to point in the Los Angeles area. Data were obtained from OpenStreetMaps and was parsed with a self-designed C++ parser. The navigation is optimized using A*, a path-finding algorithm that recommends the shortest path based on a carefully chosen heuristic.");
+          break;
+      case 'mouseCar':
+          $('#title h1').text('Mouse Car');
+          $( "#subheading h3").text('IEEE Capstone Project');
+          $( "#description p" ).text("A maze-traversing car that uses an Arduino Nano and PCBs with IR light sensors for sensing walls. Implements PID control for optimal driving.");
+          break;
+      case 'stanford':
+          $('#title h1').text('Neuroscience Internship');
+          $( "#subheading h3").text('Stanford, California');
+          $( "#description p" ).text("Interned under Nobel Prize Leaureate Dr. Sudhof in the Stanford Department of Molecular and Cellular Physiology. Worked with Matlab to analyze neural networks of fetal mice brain. Performed 8 surgeries/week in the hypothalamus region of lab mice brains.");
+          break;
+      case 'prepEgg':
+          $('#title h1').text('Prep Egg');
+          $( "#subheading h3").text('Summer Internship');
+          $( "#description p" ).text("iOS App Development");
+          break;
+      case 'comingSoon':
+          $('#title h1').text('Coming Soon');
+          $( "#subheading h3").text('Coming Soon');
+          $( "#description p" ).text("I am always looking for new ideas and fun projects to work on!");
           break;
         default:
         console.log("no featured work");
