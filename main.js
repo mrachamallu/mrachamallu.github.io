@@ -21,7 +21,7 @@ $(document).ready(function() {
 //bio slides in on about me
 $(document).ready(function() {
                  $('.bio').hide();
-                 $('.bio').html("I am a second year Computer Science student at UCLA exploring web development, app development, and software development. This page is still under construction, but be sure to check back soon for exciting updates!").slideDown(1500);
+                  $('.bio').html("Hey There! I am a third year Computer Science student at UCLA exploring software development and product management. Feel free to browse around and read a few articles :) ").slideDown(1500);
          });
 
 //shows detail of a featured work
